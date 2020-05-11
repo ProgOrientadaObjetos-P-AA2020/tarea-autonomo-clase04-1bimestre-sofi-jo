@@ -16,7 +16,7 @@ public class EjemploMetodotoString {
     // casa usando el metodo toString
 
     public static void main(String[] args) {
-        
+
         // Declaramos las variables
         String nom;
         String id;
@@ -26,7 +26,7 @@ public class EjemploMetodotoString {
         Scanner so = new Scanner(System.in);
         // Creamos un objeto 
         Persona p = new Persona();
-        
+
         System.out.println("Ingrese el nombre de la persona");
         nom = so.nextLine();
         System.out.println("Ingrese la identificacion de la persona");
@@ -37,10 +37,10 @@ public class EjemploMetodotoString {
         num = so.nextInt();
         // Ingresamos nuestros datos en el metodo datosPersona
         p.datosPersona(nom, id, ed, num);
-        
+
         // Imprimimos la informacion
         System.out.println(p.toString());
-        
+
     }
-    
+
 }
